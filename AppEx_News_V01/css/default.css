@@ -10,6 +10,9 @@
     display: -ms-grid;
     height: 100%;
     width: 100%;
+    background-image: url('http://appexblu.stb.s-msn.com/usappex/i/B0/6E5E726D9AA7CD375BBA930C8B35D.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
     .fragment header[role=banner] {
@@ -39,3 +42,26 @@
         -ms-grid-row: 2;
         height: 100%;
     }
+
+.pagetitle{
+    color: white;
+    font-size: 30px;
+}
+
+#content {
+	display: inline-block;
+	position: relative;
+	top: 300px;
+}
+
+#headline {
+	color: white;
+	font-size: 40px;
+}
+
+#source {
+	font-weight: bold;
+	font-size: 20px;
+}
+
+#abstract { font-size: 20px; font-style: italic;}
